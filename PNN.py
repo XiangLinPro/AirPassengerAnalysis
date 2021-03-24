@@ -4,7 +4,7 @@ Version: 1.0
 Author: ZhangHongYu
 Date: 2021-03-03 14:51:59
 LastEditors: ZhangHongYu
-LastEditTime: 2021-03-24 08:49:27
+LastEditTime: 2021-03-24 11:29:10
 '''
 import numpy as np
 import tensorflow as tf
@@ -32,7 +32,7 @@ class PNN(tf.keras.Model):
 
         self.feature_size = feature_size    # one-hot编码后的所有特征数
         self.field_size = field_size    # one-hot编码前的特征域数量
-        self.embedding_size = embedding_size
+        self.embedding_size = embedding_size    #嵌入后单个特征域的向量维度
 
         self.deep_layers = deep_layers       # 全连接层大小
         self.deep_init_size = deep_init_size # Product Layer大小

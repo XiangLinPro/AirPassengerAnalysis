@@ -10,7 +10,7 @@ Python (3.6)
 numpy (1.19.5)  
 pandas (1.1.5)  
 scikit-learn (0.24.1)  
-tensorflow==2.0.0b1  
+tensorflow==2.4.1
 
 
 ### 数据集
