@@ -6,7 +6,7 @@
 由于题目给定的特征非常多，我们采用PNN(Product-based-Neural-Network)深度学习模型对特征工程进行模型化。模型原始论文在项目目录data下。该模型的Embedding层能够对类别型特征组成的稀疏矩阵转换为大量稠密矩阵，提高模型收敛速率，同时Product层能够将特征域的Embedding后的向量进行两两交叉，充分挖掘组合特征，获取特征之间的交叉信息。    
 
 ### 环境配置
-Python (3.6)  
+Python (3.8.5)  
 numpy (1.19.5)  
 pandas (1.1.5)  
 scikit-learn (0.24.1)  
